@@ -1,0 +1,20 @@
+body{
+    background-image:url(/imagens/fundo-madeira.jpg);
+}
+/*Centralizar imagem*/
+img{
+    position:center;
+}
+img#icon{
+   height: 50px;
+   width: 50px;
+   border-radius: 360%;
+   box-shadow: 1px 1px 1px black;
+   margin: 12px;
+}
+
+/*Tirar a borda e a rolagem, utilizar a imagem inicial fixa, fazer as pags de rede.*/iframe{
+    width: 250px;
+    height: 500px;
+   
+}
