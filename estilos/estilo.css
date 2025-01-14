@@ -4,33 +4,28 @@
     padding: 0px;
 }
 
-html,body{
-    background-color: black;
-}
-
 body{
     background: url(/imagens/fundo-madeira.jpg) no-repeat top center;
     background-color: black;
 }
 
-
-/*Centralizar imagem*/
-img#iphone{
-    position:absolute;
+section#telefone{
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
+    height: 627px;
+    width: 311px;
+    background: url(../imagens/frame-iphone.png) no-repeat;
 }
 
-/*Tirar a borda e a rolagem, utilizar a imagem inicial fixa, fazer as pags de rede.*/
 iframe#tela{
-    position:absolute;
-    width: 280px;
-    height: 480px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-   
+   position: relative;
+   top: 80px;
+   left: 22px;
+   width: 268px;
+   height: 471px;
 }
 
 img#icon{
