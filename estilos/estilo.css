@@ -1,10 +1,38 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    background-color: black;
+}
+
 body{
-    background-image:url(/imagens/fundo-madeira.jpg);
+    background: url(/imagens/fundo-madeira.jpg) no-repeat top center;
+    background-color: black;
 }
+
+
 /*Centralizar imagem*/
-img{
-    position:center;
+img#iphone{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+/*Tirar a borda e a rolagem, utilizar a imagem inicial fixa, fazer as pags de rede.*/
+iframe#tela{
+    position:absolute;
+    width: 280px;
+    height: 480px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
 img#icon{
    height: 50px;
    width: 50px;
@@ -13,8 +41,3 @@ img#icon{
    margin: 12px;
 }
 
-/*Tirar a borda e a rolagem, utilizar a imagem inicial fixa, fazer as pags de rede.*/iframe{
-    width: 250px;
-    height: 500px;
-   
-}
